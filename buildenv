@@ -26,9 +26,9 @@ zopen_check_results()
   echo "expectedTotalTests:1"
 }
 
-export zopen_post_install()
+zopen_post_install()
 {
-  cp -r samples $ZOPEN_INSTALL_DIR/
+  cp -fr samples $ZOPEN_INSTALL_DIR/
 }
 
 zopen_get_version()
